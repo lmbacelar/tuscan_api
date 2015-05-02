@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.2.2'
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'tuscan'
@@ -8,5 +8,5 @@ gem 'tuscan'
 group :test do
   gem 'rspec'
   gem 'rack-test'
-  gem 'byebug'
+  gem 'rake'
 end
